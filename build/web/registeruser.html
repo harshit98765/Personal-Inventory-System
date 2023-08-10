@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="pisregisterCSS.css">
+    </head>
+
+    <body>
+
+
+        <div class="item" id="item-2">
+            <div class="logo">
+                <div id="line1">
+                    <span id="ps">Personal</span>
+                </div>
+                <div id="line2">
+                    <span id="inv">Inventory</span>
+                    <span id="sys"> System</span>
+                </div>
+            </div>
+            <div class="navbar">
+                <ul class="nav-links">
+
+                    
+                    <li><a href="Home">Home Profile</a></li>
+                     <li><a href="registeruser.html"> Register User</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="item"   id="item-3">
+
+
+            <form name="f1" method="post" onsubmit="return Validation();" action="PisregisterController" >
+
+                <div class="container">
+                    <center>
+                        <h1> User Registeration Form</h1>
+                    </center>
+                    <hr>
+                    <label> name 
+                        <input type="text" name="name" placeholder="Enter Name" size="15" required /></label>
+
+                    <label for="username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" required>
+
+
+                    <label> Phone : </label>
+                    <input type="number" name="phone" placeholder="phone : no" required>
+                    
+                     <label> Address : </label>
+                    <input type="text" name="add" placeholder=" Enter Address " required>
+
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="pass" required>
+
+                     <div class="btns">
+                        <input type="submit" class="registerbtn" value="register">
+                        <input type="reset" class="resetbtn" value="reset">
+                    </div>
+            </form>
+        </div>
+               
+<script src="pisregisterjavascripit.js"></script>
+    </body>
+
+</html>
+

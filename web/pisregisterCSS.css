@@ -1,0 +1,219 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 21, 2023, 11:17:32 AM
+    Author     : AR WorkStation
+*/
+body{
+    background-color: rgb(52, 15, 112); 
+}
+.cnt {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    height: 750px;
+    grid-row-gap: 10px;
+}
+
+.item {
+    background-color: rgb(147, 106, 245);
+    border-radius: 3px;
+}
+
+#item-2 {
+    background-color: #161616;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#item-3 {
+    background-color: #a258e7;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 30px;
+}
+.item2 nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  
+}
+
+.logo {
+   
+    margin: auto;
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: left;
+    font-weight: bold;
+}
+
+.nav-links {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    font-size: 18px;
+  
+    align-items: center;
+  
+    margin-right: 50px;
+}
+.navbar{
+    display: flex;
+    margin-left: 300px;
+    justify-content: right;
+   
+}
+.nav-links li {
+    display: flex;
+    justify-content: right;
+
+    text-shadow: 2px 2px 2px 2px black;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.logo #ps {
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(64, 64, 245);
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo #inv {
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(238, 241, 238);
+    font-family: Times New Roman, serif;
+  }
+  
+  .logo #sys {
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #585757;
+    font-family: Times New Roman, serif;
+  }
+#item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+  .container {  
+    margin-left: 25%;
+    margin-top: 10px;
+    width: 40%;
+    font-weight: bold;
+   text-transform: capitalize;
+    padding: 50px;  
+  background-color: rgb(174, 124, 255); 
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px solid black; 
+}  
+  
+input[type=text], input[type=password],input[type=email], textarea ,input[type=number]{  
+  width: 100%;  
+  padding: 10px;  
+  margin: 5px 0 15px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+input[type=submit],input[type=reset]{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+input[type=text]:focus, input[type=password]:focus {  
+  
+  outline: none;  
+}  
+ 
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 15px;  
+}  
+.registerbtn {  
+  background-color: lightgreen;  
+  color: rgb(31, 30, 30);  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  border-radius: 20px;
+  width: 200px;
+  
+}  
+
+.resetbtn {  
+    
+    background-color: #edf853;  
+    color: rgb(26, 25, 25);  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 200px;
+  
+    border-radius: 20px;
+  }  
+.registerbtn:hover {  
+ color: rgb(82, 255, 120);
+ background: #000;
+}  
+
+.resetbtn:hover {  
+    color: rgb(247, 250, 72);
+    background: #000;
+   }  
+
+.btns{
+    font-size: 20px;
+   font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.login {  
+    font-size: 20px;
+    background-color: #8a6cf7;  
+    color: rgb(18, 15, 20);  
+    padding: 10px ;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 200px;
+  
+    border-radius: 20px;
+  }  
+.login:hover {  
+ color: rgb(228, 63, 250);
+ background: #000;
+}  
+
+
